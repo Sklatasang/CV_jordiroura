@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #333;
-    background-color: #f0f0f0; /* Canvi del color de fons del cos */
+    background-color: #f0f0f0;
 }
 
 /* Header */
@@ -18,7 +17,7 @@ body {
     align-items: center;
     padding: 40px 100px;
     font-family: 'Roboto Mono', monospace;
-    background-color: #ffffff; /* Manté el rectangle superior en blanc */
+    background-color: #ffffff;
 }
 
 .top-bar .logo {
@@ -31,21 +30,21 @@ nav a {
     text-decoration: none;
     color: #333;
     font-size: 0.9rem;
-    transition: color 0.3s; /* Transició suau per al canvi de color */
+    transition: color 0.3s; /* Smooth color transition */
 }
 
 nav a:hover {
-    color: #0056b3; /* Canvia el color a blau quan passi el ratolí */
+    color: #0056b3; /* Hover effect: blue color */
 }
 
-/* Enllaç actiu */
+/* Active link */
 nav a.active {
-    color: #007bff; /* Blau */
-    font-weight: 700; /* Fa que el text estigui en negreta */
-    border-bottom: 2px solid #007bff; /* Afegeix una línia sota el text per destacar-lo */
+    color: #007bff;
+    font-weight: 700;
+    border-bottom: 2px solid #007bff; /* Highlight with underline */
 }
 
-/* Main Container with Full Height */
+/* Main container with full height */
 .container {
     display: flex;
     align-items: center;
@@ -58,7 +57,7 @@ nav a.active {
     background: linear-gradient(to right, #f0f0f0 40%, #ffffff 40%);
 }
 
-/* Profile Card */
+/* Profile card */
 .profile-card {
     background-color: #e0e0e0;
     padding: 30px 20px;
@@ -103,7 +102,7 @@ nav a.active {
     text-decoration: none;
 }
 
-/* Introduction Text */
+/* Introduction text */
 .intro-text {
     max-width: 600px;
     text-align: left;
@@ -139,23 +138,23 @@ nav a.active {
     transition: background-color 0.3s;
 }
 
-/* Botó Currículum */
+/* CV button */
 .button-cv {
-    background-color: #007bff; /* Blau */
+    background-color: #007bff;
 }
 
-/* Botó Contacto */
+/* Contact button */
 .button-contacto {
-    background-color: #007bff; /* Verd */
+    background-color: #007bff;
 }
 
-/* Efecte Hover */
+/* Hover effects */
 .button-cv:hover {
-    background-color: #0056b3; /* Blau més fosc */
+    background-color: #0056b3;
 }
 
 .button-contacto:hover {
-    background-color: #0056b3 /* Verd més fosc */
+    background-color: #0056b3;
 }
 
 .description {
@@ -165,7 +164,7 @@ nav a.active {
     margin-top: 20px;
 }
 
-/* Responsive Styles */
+/* Responsive styles */
 @media (max-width: 768px) {
     .top-bar {
         padding: 20px 20px;
@@ -195,6 +194,7 @@ nav a.active {
         align-items: center;
     }
 }
+
 
 
 
